@@ -19,6 +19,7 @@ import { useEffect, useState } from "react";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/ui/app-sidebar";
 
+
 const QuickSightEmbed = () => {
     const [embedUrl, setEmbedUrl] = useState<string | null>(null);
     const [loading, setLoading] = useState<boolean>(true);
